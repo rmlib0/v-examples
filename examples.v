@@ -28,12 +28,13 @@ struct Player {
 	class	string
 }
 
-fn main() {
-	player := Player {
-		name: "Я"
-	}
+struct Enemy {
+	name	string
+	age		int
+	class	string
+}
 
-	if player.name == "Я" {
-		println("Я")
-	}
+
+fn main() {
+	
 }
